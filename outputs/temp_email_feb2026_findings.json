@@ -1,0 +1,59 @@
+{
+  "blocklist_snapshot_commit": "523cca1",
+  "blocklist_size": 5173,
+  "reference_mx_hits": 60,
+  "reference_mx_hit_rate_pct": 54.1,
+  "top_mx_clusters": {
+    "smtp.yopmail.com": 43,
+    "mail.wabblywabble.com": 22,
+    "mail.wallywatts.com": 22,
+    "route1.mx.cloudflare.net": 21,
+    "route2.mx.cloudflare.net": 21,
+    "route3.mx.cloudflare.net": 21,
+    "mail.casadorock.com": 22,
+    "mail.temporary-mail.net": 6
+  },
+  "cluster_examples": {
+    "wabblywabble_wallywatts": [
+      "cimario.com",
+      "aixind.com",
+      "hopesx.com",
+      "icubik.com",
+      "dnsclick.com",
+      "ixunbo.com"
+    ],
+    "yopmail_satellites": [
+      "rbs1.xyz",
+      "yop.too.li",
+      "yopmail.ozm.fr"
+    ],
+    "cloudflare_route": [
+      "aiphotoeditor.io",
+      "fusioninbox.com",
+      "buzzcut.ws"
+    ]
+  },
+  "catch_all_validation": [
+    {"domain": "cimario.com", "mx": ["mail.wallywatts.com", "mail.wabblywabble.com"], "catch_all": true},
+    {"domain": "aixind.com", "mx": ["mail.wabblywabble.com", "mail.wallywatts.com"], "catch_all": true},
+    {"domain": "hopesx.com", "mx": ["mail.wabblywabble.com", "mail.wallywatts.com"], "catch_all": null},
+    {"domain": "icubik.com", "mx": ["mail.wabblywabble.com", "mail.wallywatts.com"], "catch_all": true},
+    {"domain": "dnsclick.com", "mx": ["mail.wabblywabble.com", "mail.wallywatts.com"], "catch_all": null},
+    {"domain": "ixunbo.com", "mx": ["mail.wabblywabble.com", "mail.wallywatts.com"], "catch_all": true}
+  ],
+  "proactive_ct_example": {
+    "domain": "imashr.com",
+    "ct_first_seen": "2026-02-23",
+    "on_blocklist_at_research_time": false,
+    "mx": ["mail.wabblywabble.com", "mail.wallywatts.com"],
+    "later_blocklisted": "2026-05-23",
+    "ct_to_blocklist_gap_days": 89
+  },
+  "detection_gap_spinups_days": {
+    "dumbass.nl": 190,
+    "pdf-cutter.com": 269,
+    "rbs1.xyz": 397,
+    "rulersonline.com": 393,
+    "median": 331
+  }
+}

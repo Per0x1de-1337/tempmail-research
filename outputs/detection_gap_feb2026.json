@@ -1,0 +1,11 @@
+[
+  {"domain": "dumbass.nl", "created": "2025-08-05", "blocklist_date": "2026-02-11", "gap_days": 190},
+  {"domain": "pdf-cutter.com", "created": "2025-05-18", "blocklist_date": "2026-02-11", "gap_days": 269},
+  {"domain": "rbs1.xyz", "created": "2025-01-10", "blocklist_date": "2026-02-11", "gap_days": 397},
+  {"domain": "rulersonline.com", "created": "2025-01-14", "blocklist_date": "2026-02-11", "gap_days": 393},
+  {"domain": "swagpapa.com", "created": "2024-12-31", "blocklist_date": "2026-02-11", "gap_days": 407},
+  {"domain": "deepmails.org", "created": "2024-12-31", "blocklist_date": "2026-02-11", "gap_days": 407},
+  {"domain": "aixind.com", "created": "2024-12-11", "blocklist_date": "2026-02-11", "gap_days": 427},
+  {"domain": "hopesx.com", "created": "2024-12-11", "blocklist_date": "2026-02-11", "gap_days": 427},
+  {"domain": "icubik.com", "created": "2024-12-11", "blocklist_date": "2026-02-11", "gap_days": 427}
+]
